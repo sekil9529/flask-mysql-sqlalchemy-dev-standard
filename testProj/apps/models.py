@@ -43,8 +43,8 @@ class Xxx(db.Model):
     # 模型修改时自动更新
     update_time = db.Column(DATETIME(fsp=6), nullable=False, default=datetime.datetime.now, onupdate=datetime.datetime.now, comment='更新时间')
 
-    xxx_detail = db.relationship('XxxDetail')
-    yyys = db.relationship('Yyy')
+    xxx_detail = db.relationship('XxxDetail', backref='xxx')
+    yyy = db.relationship('Yyy', backref='xxx')
 
     """生成的表结构
     CREATE TABLE `t_xxx` (
