@@ -120,4 +120,3 @@ class Yyy(db.Model):
       CONSTRAINT `t_yyy_ibfk_1` FOREIGN KEY (`xxx_id`) REFERENCES `t_xxx` (`xxx_id`)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='yyy表
     """
-
