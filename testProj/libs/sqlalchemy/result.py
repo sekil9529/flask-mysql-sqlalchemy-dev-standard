@@ -33,7 +33,7 @@ def list_format(result: List[Union[Row, DeclarativeMeta, Model]]) -> List[dict]:
     return lst
 
 
-def result_format(result: Union[DeclarativeMeta, Model, Row, List[Row], None]) -> Union[dict, List[dict]]:
+def result_format(result: Union[DeclarativeMeta, Model, Row, List, None]) -> Union[dict, List[dict]]:
     """ sqlalchemy query result 格式化 """
     if not result:
         return result
