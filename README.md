@@ -29,7 +29,9 @@
 
 5. [SQLAlchemy中使用原生SQL](https://github.com/sekil9529/flask-mysql-sqlalchemy-dev-standard/blob/master/5.SQLAlchemy%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%8E%9F%E7%94%9FSQL.md)
 
-6. 附录
+6. [SQLAlchemy结果集转字典](https://github.com/sekil9529/flask-mysql-sqlalchemy-dev-standard/blob/master/6.SQLAlchemy%E7%BB%93%E6%9E%9C%E9%9B%86%E8%BD%AC%E5%AD%97%E5%85%B8.md)
+
+7. 附录
 
     - [代码](https://github.com/sekil9529/flask-mysql-sqlalchemy-dev-standard/tree/master/testProj)
 
